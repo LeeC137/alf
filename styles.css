@@ -1,0 +1,24 @@
+/* This is the CSS styling sheet for the project that is related to Sonia Davis' future or current assisted living facility. */
+
+.topnav {
+    overflow:hidden;
+    background-color: rgb(255);
+    opacity: 0.6;
+    
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: last;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+
+.topnav a:hover {
+    background-color: violet;
+    color: white;
+    
+}
+
