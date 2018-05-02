@@ -1,62 +1,42 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
 <html lang="en-us">
-
-<head>
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
-
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
-
-</style>
-</head>
-
-<body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
-
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
-
-</body>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>Assisted Living Facility</title>
+        <style type="text/css">
+            #mainContent {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                font-weight: bold;
+                border-radius: 4px;
+                padding: 10px;
+                text-align: center;
+                color: magenta;
+            }
+            body{
+                background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiwrd7MgejaAhXnhVQKHZjfDYEQjRx6BAgBEAU&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_52913983_gardening-tools-and-flowers-on-the-terrace-in-the-garden.html&psig=AOvVaw3J67BRlqRibX4RpWBm9QRu&ust=1525384321710107");
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="topnav">
+            <a href="./index.html">In Memoriam</a>
+            <a href="./about.html">About Him</a>
+            <a href="./stories.html">Stories</a>
+            <!-- stories, donations, contact, + maybe rename media to gallery-->
+            <a href="./media.html">Media</a>
+            <a href="./donate.html">Donate</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+        
+        <div id="mainContent">
+            <h1>Sonia Davis</h1>
+            <h2>A loving father, husband, brother and son.</h2>
+        </div>
+        
+    </body>
 </html>
